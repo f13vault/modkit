@@ -5,7 +5,7 @@ using JSon;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-[assembly: AssemblyTitle("My Mod")] // ENTER MOD TITLE
+[assembly: AssemblyTitle("F13")] // ENTER MOD TITLE
 
 
 public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NAME
@@ -23,13 +23,18 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
 
     void GameLoaded(GlobalEvents.GameStart evnt)
     {
-        Localization.LoadStrings("mymod_strings_");
+        //Localization.LoadStrings("mymod_strings_");
         Game.World.console.DeveloperMode();
     }
 
     void LevelLoaded(GlobalEvents.LevelLoaded evnt)
     {
         Debug.Log(evnt.levelName);
+
+        if(evnt.levelName == "TrainingCamp")
+        {
+            Game.World.NextLevel("Vault13_Cave", "EnterPoint", false, true);
+        }
     }
 
     void Update()

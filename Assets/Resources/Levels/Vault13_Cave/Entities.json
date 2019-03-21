@@ -1,0 +1,131 @@
+[ 
+   { 
+      "class" : "Chest", 
+      "active" : "true", 
+      "proto" : "Ed", 
+      "inventory" : [ 
+         { 
+            "class" : "Weapon", 
+            "count" : "1", 
+            "proto" : "Knife"
+         }, 
+         { 
+            "class" : "Ammo", 
+            "count" : "24", 
+            "proto" : "10mm_JHP"
+         }
+      ], 
+      "open" : "false", 
+      "touch" : "false", 
+      "lockLevel" : "0", 
+      "lockType" : "Mechanical", 
+      "pin" : "0", 
+      "name" : "Ed", 
+      "transform" : { 
+         "pos" : [ 
+            "65.43", 
+            "0", 
+            "174.38"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1", 
+      "transform" : { 
+         "pos" : [ 
+            "85.7", 
+            "0", 
+            "120.2"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Interactive", 
+      "active" : "true", 
+      "proto" : "Vault13_Cave", 
+      "name" : "Vault13_Cave", 
+      "transform" : { 
+         "pos" : [ 
+            "82.3", 
+            "0", 
+            "170.3"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Interactive", 
+      "active" : "true", 
+      "proto" : "Vault13_Cave_Ctrl", 
+      "name" : "Vault13_Cave_Ctrl", 
+      "transform" : { 
+         "pos" : [ 
+            "59.05", 
+            "3.47", 
+            "170.22"
+         ], 
+         "rot" : [ 
+            "270", 
+            "90", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }
+]

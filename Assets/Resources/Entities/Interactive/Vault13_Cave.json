@@ -1,0 +1,92 @@
+{ 
+   "states" : { 
+      "c1a25580-7fa5-4e6c-90cd-b34a12e2d6f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100599", 
+            "y" : "-100329"
+         }, 
+         "child" : [ 
+            "da129238-c35f-41d9-ac92-02ce7a6cab9f"
+         ]
+      }, 
+      "da129238-c35f-41d9-ac92-02ce7a6cab9f" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-100606", 
+            "y" : "-100270"
+         }, 
+         "child" : [ 
+            "4323244c-6701-4b3a-b1b9-2ce1f6f48eb0", 
+            "5c8926a3-a0c2-46d0-b105-9d95f95dd1fc"
+         ], 
+         "key" : "FIRST"
+      }, 
+      "4323244c-6701-4b3a-b1b9-2ce1f6f48eb0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100649", 
+            "y" : "-100177"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "5c8926a3-a0c2-46d0-b105-9d95f95dd1fc" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-100526", 
+            "y" : "-100165"
+         }, 
+         "child" : [ 
+            "50d5a97e-2640-4ab4-900b-9b4e6a0cf8d7"
+         ], 
+         "key" : "FIRST"
+      }, 
+      "50d5a97e-2640-4ab4-900b-9b4e6a0cf8d7" : { 
+         "class" : "InventorySetNode", 
+         "desc" : { 
+            "x" : "-100522", 
+            "y" : "-100104"
+         }, 
+         "child" : [ 
+            "861e4ea5-25bd-4347-8c49-3fe2d2ec5b71"
+         ], 
+         "inventory" : [ 
+            { 
+               "class" : "Weapon", 
+               "count" : "1", 
+               "proto" : "10mmPistol", 
+               "ammo" : { 
+                  "count" : "12", 
+                  "proto" : "10mm_JHP"
+               }
+            }
+         ], 
+         "inventoryObject" : "Player"
+      }, 
+      "861e4ea5-25bd-4347-8c49-3fe2d2ec5b71" : { 
+         "class" : "ResetCharacterCreatureNode", 
+         "desc" : { 
+            "x" : "-100545", 
+            "y" : "-100013"
+         }, 
+         "child" : [ 
+            "db9e2e12-81e5-4aaa-9d94-948678715f00"
+         ], 
+         "objectName" : "Player", 
+         "protoName" : "BaseMale18"
+      }, 
+      "db9e2e12-81e5-4aaa-9d94-948678715f00" : { 
+         "class" : "CharacterCapsNode", 
+         "desc" : { 
+            "x" : "-100570", 
+            "y" : "-99931"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Player", 
+         "caps" : "Player"
+      }
+   }, 
+   "entry" : "c1a25580-7fa5-4e6c-90cd-b34a12e2d6f2"
+}

@@ -1,0 +1,35 @@
+{ 
+   "states" : { 
+      "c1a25580-7fa5-4e6c-90cd-b34a12e2d6f2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100686", 
+            "y" : "-100364"
+         }, 
+         "child" : [ 
+            "bb7cd6a4-1f7e-4214-9551-40d1511c7ca1"
+         ]
+      }, 
+      "bb7cd6a4-1f7e-4214-9551-40d1511c7ca1" : { 
+         "class" : "InteractiveUseNode", 
+         "desc" : { 
+            "x" : "-100725", 
+            "y" : "-100294"
+         }, 
+         "child" : [ 
+            "7781d784-0f20-4ca8-a202-061d7e22c807"
+         ]
+      }, 
+      "7781d784-0f20-4ca8-a202-061d7e22c807" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100773", 
+            "y" : "-100242"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "BIP"
+      }
+   }, 
+   "entry" : "c1a25580-7fa5-4e6c-90cd-b34a12e2d6f2"
+}

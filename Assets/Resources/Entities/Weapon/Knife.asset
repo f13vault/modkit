@@ -13,34 +13,34 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: 
   Icon:
-    path: 
+    path: Entities/Weapon/Knife
   m_Localization: 
   Takeable: 1
-  Cost: 0
-  Weight: 0
+  Cost: 40
+  Weight: 600
   Collectable: 1
   Modifiers: []
-  weaponType: 1
+  weaponType: 3
   Ammo:
     path: 
   AmmoCapacity: 0
   BothHands: 0
-  DamageMin: 0
-  DamageMax: 0
+  DamageMin: 1
+  DamageMax: 6
   DamageRadius: 1
   Fatality: 0
   Perks: 0
   DamageType: 0
   Single:
-    AP: 0
-    Range: 0
+    AP: 3
+    Range: 1
     Shots: 0
     Dispersion: 0
     ModeType: 0
     Sounds: []
   Aimed:
-    AP: 0
-    Range: 0
+    AP: 3
+    Range: 1
     Shots: 0
     Dispersion: 0
     ModeType: 0
