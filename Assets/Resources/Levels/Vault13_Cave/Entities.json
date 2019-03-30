@@ -23,9 +23,9 @@
       "name" : "Ed", 
       "transform" : { 
          "pos" : [ 
-            "65.43", 
-            "0", 
-            "174.38"
+            "65.66", 
+            "0.213", 
+            "175.86"
          ], 
          "rot" : [ 
             "0", 
@@ -46,6 +46,7 @@
       "character" : "Rat_Small", 
       "damage" : "0", 
       "ap" : "0", 
+      "bonusTurn" : "false", 
       "relationship" : "0", 
       "shotMode" : "0", 
       "inventory" : [ 
@@ -119,6 +120,490 @@
          "rot" : [ 
             "270", 
             "90", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (1)", 
+      "transform" : { 
+         "pos" : [ 
+            "94.7", 
+            "0", 
+            "115.5"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (2)", 
+      "transform" : { 
+         "pos" : [ 
+            "101.6", 
+            "0", 
+            "137.8"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (3)", 
+      "transform" : { 
+         "pos" : [ 
+            "85.6", 
+            "0", 
+            "149.6"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (4)", 
+      "transform" : { 
+         "pos" : [ 
+            "121.58", 
+            "0", 
+            "178.55"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (5)", 
+      "transform" : { 
+         "pos" : [ 
+            "143.2", 
+            "0", 
+            "178.6"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (6)", 
+      "transform" : { 
+         "pos" : [ 
+            "119.4", 
+            "0", 
+            "202.5"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (7)", 
+      "transform" : { 
+         "pos" : [ 
+            "134.6", 
+            "0", 
+            "193"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (8)", 
+      "transform" : { 
+         "pos" : [ 
+            "128.6", 
+            "0", 
+            "209.2"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (9)", 
+      "transform" : { 
+         "pos" : [ 
+            "122.3", 
+            "0", 
+            "213.9"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (10)", 
+      "transform" : { 
+         "pos" : [ 
+            "141.6", 
+            "0", 
+            "215.2"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
+            "0"
+         ], 
+         "scale" : [ 
+            "1", 
+            "1", 
+            "1"
+         ]
+      }
+   }, 
+   { 
+      "class" : "Character", 
+      "active" : "true", 
+      "proto" : "Rat", 
+      "character" : "Rat_Small", 
+      "damage" : "0", 
+      "ap" : "0", 
+      "bonusTurn" : "false", 
+      "relationship" : "0", 
+      "shotMode" : "0", 
+      "inventory" : [ 
+      ], 
+      "mainItemIndex" : "0", 
+      "conditions" : { 
+         "toxic" : "0", 
+         "toxicTimer" : "-1", 
+         "radiation" : "0", 
+         "radiationTimer" : "-1", 
+         "hunger" : "0", 
+         "hungerDmg" : "0", 
+         "rolling" : "0"
+      }, 
+      "effects" : [ 
+      ], 
+      "behavior" : "Rat.Swing", 
+      "name" : "Rat1 (11)", 
+      "transform" : { 
+         "pos" : [ 
+            "131.5", 
+            "0", 
+            "229.1"
+         ], 
+         "rot" : [ 
+            "0", 
+            "0", 
             "0"
          ], 
          "scale" : [ 

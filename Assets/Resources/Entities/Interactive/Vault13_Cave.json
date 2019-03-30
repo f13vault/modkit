@@ -74,7 +74,7 @@
             "db9e2e12-81e5-4aaa-9d94-948678715f00"
          ], 
          "objectName" : "Player", 
-         "protoName" : "BaseMale18"
+         "protoName" : "BaseMale6"
       }, 
       "db9e2e12-81e5-4aaa-9d94-948678715f00" : { 
          "class" : "CharacterCapsNode", 

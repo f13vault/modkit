@@ -25,11 +25,13 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
     {
         //Localization.LoadStrings("mymod_strings_");
         Game.World.console.DeveloperMode();
+        Game.World.NextLevel("MainMenu", "EnterPoint", false, false);
     }
 
     void LevelLoaded(GlobalEvents.LevelLoaded evnt)
     {
         Debug.Log(evnt.levelName);
+        Game.World.Player.CharacterComponent.Character._skin = Character.Skin.NoSkin;
 
         if(evnt.levelName == "TrainingCamp")
         {

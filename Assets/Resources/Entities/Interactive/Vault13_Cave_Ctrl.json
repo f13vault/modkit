@@ -17,18 +17,50 @@
             "y" : "-100294"
          }, 
          "child" : [ 
-            "7781d784-0f20-4ca8-a202-061d7e22c807"
+            "2ed75c77-0436-4d78-90e1-c8664276d2c4"
+         ]
+      }, 
+      "2ed75c77-0436-4d78-90e1-c8664276d2c4" : { 
+         "class" : "RandomNode", 
+         "desc" : { 
+            "x" : "-100786", 
+            "y" : "-100239"
+         }, 
+         "child" : [ 
+            "7781d784-0f20-4ca8-a202-061d7e22c807", 
+            "32b87914-b21f-4605-9fa6-a55240bd96fc", 
+            "8496d550-9fe6-40d8-9093-5d0578ebc2e5"
          ]
       }, 
       "7781d784-0f20-4ca8-a202-061d7e22c807" : { 
          "class" : "LogNode", 
          "desc" : { 
-            "x" : "-100773", 
-            "y" : "-100242"
+            "x" : "-101069", 
+            "y" : "-100199"
          }, 
          "child" : [ 
          ], 
-         "text" : "BIP"
+         "text" : "You use the door computer. The computer does not recognize your access code."
+      }, 
+      "32b87914-b21f-4605-9fa6-a55240bd96fc" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100962", 
+            "y" : "-100145"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "You use the door computer. A speaker crackles to life."
+      }, 
+      "8496d550-9fe6-40d8-9093-5d0578ebc2e5" : { 
+         "class" : "LogNode", 
+         "desc" : { 
+            "x" : "-100792", 
+            "y" : "-100192"
+         }, 
+         "child" : [ 
+         ], 
+         "text" : "Sorry, but we can't let you back in right now. Uh, technical problems. Try again later."
       }
    }, 
    "entry" : "c1a25580-7fa5-4e6c-90cd-b34a12e2d6f2"

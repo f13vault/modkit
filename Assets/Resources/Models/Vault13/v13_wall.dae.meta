@@ -4,10 +4,21 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Camera
+    100004: Lamp
+    100006: Untitled
     400000: //RootNode
+    400002: Camera
+    400004: Lamp
+    400006: Untitled
+    2000000: Camera
     2100000: STL_material
     2300000: //RootNode
+    2300002: Untitled
     3300000: //RootNode
+    3300002: Untitled
+    4300000: Untitled
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,10 +54,10 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
