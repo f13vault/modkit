@@ -1,0 +1,1650 @@
+{ 
+   "states" : { 
+      "68fb346e-abf7-4566-bfbf-d87d362615a3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100840", 
+            "y" : "-100550"
+         }, 
+         "child" : [ 
+            "aadc2096-b263-4119-b05b-313380406e32", 
+            "7a713efe-5b9d-4cb7-b709-77b4ee47e7fa", 
+            "9ba232e1-2804-4783-befd-67f7594fcfd1", 
+            "c6dcfe99-569b-4e34-932b-6d95374116c7"
+         ]
+      }, 
+      "aadc2096-b263-4119-b05b-313380406e32" : { 
+         "class" : "HasKeywordNode", 
+         "desc" : { 
+            "x" : "-101483", 
+            "y" : "-100593"
+         }, 
+         "child" : [ 
+            "3637cb72-db5d-4da7-87e5-4d54c68d5b5c", 
+            "300758c6-0a84-46ea-afc7-1fa1e0722d5b"
+         ], 
+         "key" : "INIT_GRIB"
+      }, 
+      "3637cb72-db5d-4da7-87e5-4d54c68d5b5c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101582", 
+            "y" : "-100508"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "300758c6-0a84-46ea-afc7-1fa1e0722d5b" : { 
+         "class" : "AddKeywordNode", 
+         "desc" : { 
+            "x" : "-101453", 
+            "y" : "-100479"
+         }, 
+         "child" : [ 
+            "f4fc52e5-0ff5-4824-9a2d-a6f95720006f", 
+            "3e286cce-78b4-4dbf-b63d-2d8b905dc557"
+         ], 
+         "key" : "INIT_GRIB"
+      }, 
+      "f4fc52e5-0ff5-4824-9a2d-a6f95720006f" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101749", 
+            "y" : "-100413"
+         }, 
+         "child" : [ 
+            "a2a909e7-b5ce-43f4-a3f3-8c2a7aeb512e", 
+            "e775485d-51d4-4b17-a647-2b8403e4e9df"
+         ], 
+         "note_key" : "DEADCITY_END"
+      }, 
+      "a2a909e7-b5ce-43f4-a3f3-8c2a7aeb512e" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101805", 
+            "y" : "-100322"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "DBunker_Grib", 
+         "active" : "true"
+      }, 
+      "e775485d-51d4-4b17-a647-2b8403e4e9df" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101673", 
+            "y" : "-100333"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "3e286cce-78b4-4dbf-b63d-2d8b905dc557" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101532", 
+            "y" : "-100347"
+         }, 
+         "child" : [ 
+            "59320a71-f5a6-40de-b5e5-08a022d3c280", 
+            "5952d851-12ac-406c-bed0-232919504cc7"
+         ], 
+         "note_key" : "CANYON_END"
+      }, 
+      "59320a71-f5a6-40de-b5e5-08a022d3c280" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101567", 
+            "y" : "-100243"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Canyon_Grib", 
+         "active" : "true"
+      }, 
+      "5952d851-12ac-406c-bed0-232919504cc7" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101444", 
+            "y" : "-100249"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "7a713efe-5b9d-4cb7-b709-77b4ee47e7fa" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101178", 
+            "y" : "-100510"
+         }, 
+         "child" : [ 
+            "91f1bc38-89e2-4f77-8b24-19d54e83c3f3", 
+            "69466e36-19eb-4dde-8011-fbc4b32cedfc"
+         ], 
+         "note_key" : "LAB_PLAYER_KILL"
+      }, 
+      "91f1bc38-89e2-4f77-8b24-19d54e83c3f3" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101273", 
+            "y" : "-100409"
+         }, 
+         "child" : [ 
+            "3559770c-9cba-453b-b129-b108d8fc7dcd"
+         ], 
+         "note_key" : "LAB_PLAYER_KILL"
+      }, 
+      "3559770c-9cba-453b-b129-b108d8fc7dcd" : { 
+         "class" : "HealNode", 
+         "desc" : { 
+            "x" : "-101293", 
+            "y" : "-100339"
+         }, 
+         "child" : [ 
+         ], 
+         "hp" : "-999", 
+         "withTeammate" : "true"
+      }, 
+      "69466e36-19eb-4dde-8011-fbc4b32cedfc" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101107", 
+            "y" : "-100417"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "9ba232e1-2804-4783-befd-67f7594fcfd1" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100939", 
+            "y" : "-100475"
+         }, 
+         "child" : [ 
+            "66fccd29-4942-42f2-8da2-5c0067225ae5", 
+            "dcdd8c8d-640c-46d9-85b0-5ee3d8f56f9d"
+         ], 
+         "note_key" : "LAB_ROPE"
+      }, 
+      "66fccd29-4942-42f2-8da2-5c0067225ae5" : { 
+         "class" : "NotebookRemoveNoteNode", 
+         "desc" : { 
+            "x" : "-101030", 
+            "y" : "-100371"
+         }, 
+         "child" : [ 
+            "1d1a5e7f-5faa-494d-972d-e7dd769778c0"
+         ], 
+         "note_key" : "LAB_ROPE"
+      }, 
+      "1d1a5e7f-5faa-494d-972d-e7dd769778c0" : { 
+         "class" : "ActiveObjectNode", 
+         "desc" : { 
+            "x" : "-101036", 
+            "y" : "-100309"
+         }, 
+         "child" : [ 
+         ], 
+         "objectName" : "Lab_Level3_RopeOut", 
+         "active" : "true"
+      }, 
+      "dcdd8c8d-640c-46d9-85b0-5ee3d8f56f9d" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100790", 
+            "y" : "-100384"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c6dcfe99-569b-4e34-932b-6d95374116c7" : { 
+         "class" : "CharacterDistanceTriggerNode", 
+         "desc" : { 
+            "x" : "-100561", 
+            "y" : "-100600"
+         }, 
+         "child" : [ 
+            "38dc20a3-94a5-4adb-aaed-c31f1bef7d9d"
+         ], 
+         "distanceCondition" : "LessThan", 
+         "distance" : "2", 
+         "objectName" : "TheEndPoint"
+      }, 
+      "38dc20a3-94a5-4adb-aaed-c31f1bef7d9d" : { 
+         "class" : "PlayerToLocationNode", 
+         "desc" : { 
+            "x" : "-100564", 
+            "y" : "-100475"
+         }, 
+         "child" : [ 
+         ], 
+         "levelName" : "City_2", 
+         "entrance" : "EnterPoint_Cult"
+      }, 
+      "007d0eb4-8a1d-4452-93cc-4e5dafc7342f" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100350", 
+            "y" : "-100454"
+         }, 
+         "child" : [ 
+            "0c36f4f3-1df0-428c-a8a9-2db29489edb8", 
+            "28bb61a3-9ab0-44be-a916-41048ff9bf66"
+         ], 
+         "note_key" : "__PLAYER_SHOW_NAME"
+      }, 
+      "0c36f4f3-1df0-428c-a8a9-2db29489edb8" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100372", 
+            "y" : "-100373"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "28bb61a3-9ab0-44be-a916-41048ff9bf66" : { 
+         "class" : "SteamAchievementNode", 
+         "desc" : { 
+            "x" : "-100261", 
+            "y" : "-100358"
+         }, 
+         "child" : [ 
+         ], 
+         "achievement" : "NO_NAME"
+      }, 
+      "79f6d03a-df0a-4e47-9892-5fb1f3ea45b5" : { 
+         "class" : "AddPlayerPrefNode", 
+         "desc" : { 
+            "x" : "-100470", 
+            "y" : "-100349"
+         }, 
+         "child" : [ 
+            "33097373-70c5-4ed1-bd83-5fe60a7230b4"
+         ], 
+         "key" : "SHOW_CREDITS"
+      }, 
+      "33097373-70c5-4ed1-bd83-5fe60a7230b4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100494", 
+            "y" : "-100278"
+         }, 
+         "child" : [ 
+            "0a99a96a-2c11-4436-af89-2de2a83c58b1", 
+            "094b34d1-77ce-4e78-9c21-095015556585", 
+            "f19da899-4829-4894-859b-17e3db6b3c2c", 
+            "a9e57b44-97a6-4ae3-a6b2-1985b6aabbf0", 
+            "bb7bdde7-c0d1-42a8-a59a-a449d0bb66b3", 
+            "a98df50b-9783-4f5f-b4e8-335f1e27bcd4", 
+            "30a10a23-857f-453b-b520-3b3f7873ab0c", 
+            "797cfcdd-4d46-4a8d-9d83-58b68da1e587", 
+            "170b6d13-012f-4ec8-849e-fc88515dbc5a", 
+            "a559adfb-92a2-4f48-a3b0-69b523301037"
+         ]
+      }, 
+      "0a99a96a-2c11-4436-af89-2de2a83c58b1" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100654", 
+            "y" : "-100296"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_37"
+      }, 
+      "094b34d1-77ce-4e78-9c21-095015556585" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-101074", 
+            "y" : "-99982", 
+            "comment" : "Scene 1"
+         }, 
+         "child" : [ 
+            "60734120-d416-4c6a-9f83-7aa3d0660100"
+         ]
+      }, 
+      "60734120-d416-4c6a-9f83-7aa3d0660100" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-101229", 
+            "y" : "-99937", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "06a2aa6c-3dd9-40da-b2a6-a6075e2b244d", 
+            "e525b741-f9bd-404e-a4e1-18a6206901b2"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "06a2aa6c-3dd9-40da-b2a6-a6075e2b244d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101358", 
+            "y" : "-99829"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_3"
+      }, 
+      "e525b741-f9bd-404e-a4e1-18a6206901b2" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-101100", 
+            "y" : "-99824"
+         }, 
+         "child" : [ 
+            "5cc674cd-a995-4d11-846d-a099923bda67", 
+            "17076ac8-3aa8-4f3e-99ee-937a21cf753e"
+         ], 
+         "note_key" : "GRIB_AGREED"
+      }, 
+      "5cc674cd-a995-4d11-846d-a099923bda67" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-101177", 
+            "y" : "-99711"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_2"
+      }, 
+      "17076ac8-3aa8-4f3e-99ee-937a21cf753e" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100991", 
+            "y" : "-99714"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_1"
+      }, 
+      "f19da899-4829-4894-859b-17e3db6b3c2c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100757", 
+            "y" : "-99987", 
+            "comment" : "Scene 2"
+         }, 
+         "child" : [ 
+            "01bc9f4d-0259-4be9-ae0e-d37c133b4202"
+         ]
+      }, 
+      "01bc9f4d-0259-4be9-ae0e-d37c133b4202" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-100798", 
+            "y" : "-99912", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "e3ba109f-6707-4b10-a6e9-f928bd0fd341", 
+            "5acf5673-9a5c-4c8b-97a6-ff458f828cc6"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "e3ba109f-6707-4b10-a6e9-f928bd0fd341" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100902", 
+            "y" : "-99805"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_6"
+      }, 
+      "5acf5673-9a5c-4c8b-97a6-ff458f828cc6" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100722", 
+            "y" : "-99805"
+         }, 
+         "child" : [ 
+            "3889aa44-522e-46a9-bb4c-972e401a77ff", 
+            "dee68c24-a7da-42f8-95e6-636c11982bb9"
+         ], 
+         "note_key" : "GRIB_AGREED"
+      }, 
+      "3889aa44-522e-46a9-bb4c-972e401a77ff" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100806", 
+            "y" : "-99705"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_5"
+      }, 
+      "dee68c24-a7da-42f8-95e6-636c11982bb9" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100627", 
+            "y" : "-99703"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_4"
+      }, 
+      "a9e57b44-97a6-4ae3-a6b2-1985b6aabbf0" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-100428", 
+            "y" : "-99991", 
+            "comment" : "Scene 3"
+         }, 
+         "child" : [ 
+            "c72b6d51-104d-43e7-ba90-1628f6360b3f"
+         ]
+      }, 
+      "c72b6d51-104d-43e7-ba90-1628f6360b3f" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-100380", 
+            "y" : "-99912", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "07ecab1f-4d39-4b77-b8b7-58e58b8dec73", 
+            "f7ee16d8-85da-42f5-8488-1e5f9e32ce56"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "07ecab1f-4d39-4b77-b8b7-58e58b8dec73" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100484", 
+            "y" : "-99805"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_10"
+      }, 
+      "f7ee16d8-85da-42f5-8488-1e5f9e32ce56" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100308", 
+            "y" : "-99806"
+         }, 
+         "child" : [ 
+            "fb30fe99-2464-472c-b225-c9f6733f3eb5", 
+            "cc5179d6-a959-4b02-a4c3-ba9be0cff9f6"
+         ], 
+         "note_key" : "GRIB_AGREED"
+      }, 
+      "fb30fe99-2464-472c-b225-c9f6733f3eb5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100412", 
+            "y" : "-99679"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_9"
+      }, 
+      "cc5179d6-a959-4b02-a4c3-ba9be0cff9f6" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-100243", 
+            "y" : "-99694"
+         }, 
+         "child" : [ 
+            "35a1662f-6416-4f1e-8eb6-363704e7ad06", 
+            "12061563-6638-4a0f-a8a1-a253076ec82c"
+         ], 
+         "note_key" : "FINAL_KRZ_ATOM"
+      }, 
+      "35a1662f-6416-4f1e-8eb6-363704e7ad06" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100321", 
+            "y" : "-99582"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_8"
+      }, 
+      "12061563-6638-4a0f-a8a1-a253076ec82c" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100151", 
+            "y" : "-99582"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_7"
+      }, 
+      "bb7bdde7-c0d1-42a8-a59a-a449d0bb66b3" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99963", 
+            "y" : "-100081", 
+            "comment" : "Scene 4"
+         }, 
+         "child" : [ 
+            "e15e1dc1-e6ac-4806-b3df-217220d95e9a"
+         ]
+      }, 
+      "e15e1dc1-e6ac-4806-b3df-217220d95e9a" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99926", 
+            "y" : "-99993"
+         }, 
+         "child" : [ 
+            "96a72bfe-0845-4750-854e-41f67de07819", 
+            "0db5e61d-7550-4b67-b3cb-4774dca14ee7"
+         ], 
+         "note_key" : "LAB_DEN_RIP"
+      }, 
+      "96a72bfe-0845-4750-854e-41f67de07819" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100084", 
+            "y" : "-99900"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_11"
+      }, 
+      "0db5e61d-7550-4b67-b3cb-4774dca14ee7" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-99866", 
+            "y" : "-99856", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "341aefe9-2e08-465d-a9f4-cfad148f9d36", 
+            "73363246-310a-4c8d-ab0f-1f7cad71dfdd"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "341aefe9-2e08-465d-a9f4-cfad148f9d36" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99970", 
+            "y" : "-99749"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_15"
+      }, 
+      "73363246-310a-4c8d-ab0f-1f7cad71dfdd" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99798", 
+            "y" : "-99748"
+         }, 
+         "child" : [ 
+            "21661f04-2ba0-4569-8145-61d87783fd17", 
+            "8e38e750-b206-4d4d-b7f7-d59bf26cd5d9"
+         ], 
+         "note_key" : "GRIB_AGREED"
+      }, 
+      "21661f04-2ba0-4569-8145-61d87783fd17" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99900", 
+            "y" : "-99653"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_14"
+      }, 
+      "8e38e750-b206-4d4d-b7f7-d59bf26cd5d9" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-99748", 
+            "y" : "-99595"
+         }, 
+         "child" : [ 
+            "a34cfb38-3195-4fa2-aaf6-b599155f0e00", 
+            "be8b055c-4abe-447c-8071-70ac2b39e795", 
+            "d2943d80-689b-4fcf-837d-0e2f482d94d1"
+         ], 
+         "quest_key" : "FACTORY.PAYBACK"
+      }, 
+      "a34cfb38-3195-4fa2-aaf6-b599155f0e00" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99830", 
+            "y" : "-99483"
+         }, 
+         "child" : [ 
+            "49e70073-8ec5-44a7-8d0e-0383413df293"
+         ]
+      }, 
+      "49e70073-8ec5-44a7-8d0e-0383413df293" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99849", 
+            "y" : "-99421"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_12"
+      }, 
+      "be8b055c-4abe-447c-8071-70ac2b39e795" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99711", 
+            "y" : "-99485"
+         }, 
+         "child" : [ 
+            "a105966f-5964-4074-aec3-962fa08423f5"
+         ]
+      }, 
+      "a105966f-5964-4074-aec3-962fa08423f5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99684", 
+            "y" : "-99396"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_13"
+      }, 
+      "d2943d80-689b-4fcf-837d-0e2f482d94d1" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99599", 
+            "y" : "-99484"
+         }, 
+         "child" : [ 
+            "49e70073-8ec5-44a7-8d0e-0383413df293"
+         ]
+      }, 
+      "a98df50b-9783-4f5f-b4e8-335f1e27bcd4" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99533", 
+            "y" : "-100094", 
+            "comment" : "Scene 5"
+         }, 
+         "child" : [ 
+            "a6de0bf7-e04e-4a0a-9006-7ce048cf8e45"
+         ]
+      }, 
+      "a6de0bf7-e04e-4a0a-9006-7ce048cf8e45" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-99506", 
+            "y" : "-100034", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "9df049dd-9442-4d37-811f-563cf910211c", 
+            "584a4ade-1982-4f60-8b2f-3b38857e9392"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "9df049dd-9442-4d37-811f-563cf910211c" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99610", 
+            "y" : "-99927"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_23"
+      }, 
+      "584a4ade-1982-4f60-8b2f-3b38857e9392" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99400", 
+            "y" : "-99910"
+         }, 
+         "child" : [ 
+            "c958aebc-69d3-4e24-b18c-0c952efa57d8", 
+            "0e6c66aa-c290-4d17-aa50-ff36a8ebc8a4"
+         ], 
+         "note_key" : "GRIB_AGREED"
+      }, 
+      "c958aebc-69d3-4e24-b18c-0c952efa57d8" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99502", 
+            "y" : "-99819"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_22"
+      }, 
+      "0e6c66aa-c290-4d17-aa50-ff36a8ebc8a4" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99285", 
+            "y" : "-99779"
+         }, 
+         "child" : [ 
+            "33ce329c-5f75-40f6-b880-6e884c417166", 
+            "c2c2a31c-8b14-4a42-8fa9-946ac503d99d"
+         ], 
+         "note_key" : "LAB_DEN_RIP"
+      }, 
+      "33ce329c-5f75-40f6-b880-6e884c417166" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99350", 
+            "y" : "-99667"
+         }, 
+         "child" : [ 
+            "6311e8eb-24da-42be-addc-3a870c2b96b0", 
+            "a7596c3b-0327-49e4-aee0-7eb05fd02ad5"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE"
+      }, 
+      "6311e8eb-24da-42be-addc-3a870c2b96b0" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99404", 
+            "y" : "-99557"
+         }, 
+         "child" : [ 
+            "5f396a6c-f943-43f8-975c-459fa0f7f8a4", 
+            "2bc986ea-924b-47a1-b44e-b015b69e2094"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE_KATE"
+      }, 
+      "5f396a6c-f943-43f8-975c-459fa0f7f8a4" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99454", 
+            "y" : "-99433"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_19"
+      }, 
+      "2bc986ea-924b-47a1-b44e-b015b69e2094" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99304", 
+            "y" : "-99432"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_20"
+      }, 
+      "a7596c3b-0327-49e4-aee0-7eb05fd02ad5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99231", 
+            "y" : "-99546"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_21"
+      }, 
+      "c2c2a31c-8b14-4a42-8fa9-946ac503d99d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99003", 
+            "y" : "-99675"
+         }, 
+         "child" : [ 
+            "0a173b7d-9879-4a82-9672-6335d787170d", 
+            "e53a9863-0a6b-405a-a56f-688c0ca381c8"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE"
+      }, 
+      "0a173b7d-9879-4a82-9672-6335d787170d" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-99040", 
+            "y" : "-99580"
+         }, 
+         "child" : [ 
+            "3f09a2f7-3eae-4e57-8431-a342398a1185", 
+            "4b076c63-9dff-4c2f-ba0e-71535b809098"
+         ], 
+         "note_key" : "VILLAGE_NEWSTATE_KATE"
+      }, 
+      "3f09a2f7-3eae-4e57-8431-a342398a1185" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99080", 
+            "y" : "-99448"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_16"
+      }, 
+      "4b076c63-9dff-4c2f-ba0e-71535b809098" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98929", 
+            "y" : "-99455"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_17"
+      }, 
+      "e53a9863-0a6b-405a-a56f-688c0ca381c8" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98856", 
+            "y" : "-99550"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_18"
+      }, 
+      "30a10a23-857f-453b-b520-3b3f7873ab0c" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99131", 
+            "y" : "-100168", 
+            "comment" : "Scene 6"
+         }, 
+         "child" : [ 
+            "77d38a2b-f0e6-4fe7-b8fe-3190d01a6fca"
+         ]
+      }, 
+      "77d38a2b-f0e6-4fe7-b8fe-3190d01a6fca" : { 
+         "class" : "QuestStatusNode", 
+         "desc" : { 
+            "x" : "-99017", 
+            "y" : "-100093"
+         }, 
+         "child" : [ 
+            "5c9d08e4-fdd1-4edd-ba0a-624087cc6cb2", 
+            "11ca1de8-9033-454d-b220-46e513271676", 
+            "15b023c7-371b-4ff6-8e52-90347445ce94"
+         ], 
+         "quest_key" : "BAZA_VISIT_GODGIN"
+      }, 
+      "5c9d08e4-fdd1-4edd-ba0a-624087cc6cb2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99099", 
+            "y" : "-100010"
+         }, 
+         "child" : [ 
+            "11ca1de8-9033-454d-b220-46e513271676"
+         ]
+      }, 
+      "11ca1de8-9033-454d-b220-46e513271676" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-98969", 
+            "y" : "-99979", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "3fd6fc22-1750-4deb-8b6d-fbbb314f9e60", 
+            "9f6dfcec-747d-49d1-a637-d1c129977254"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "3fd6fc22-1750-4deb-8b6d-fbbb314f9e60" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99011", 
+            "y" : "-99868"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_27"
+      }, 
+      "9f6dfcec-747d-49d1-a637-d1c129977254" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98781", 
+            "y" : "-99892"
+         }, 
+         "child" : [ 
+            "474b4a1a-3f48-480c-aab7-9d0037baa772", 
+            "6296f924-4ebd-41e3-806e-f26531672dec"
+         ], 
+         "note_key" : "GRIB_AGREED"
+      }, 
+      "474b4a1a-3f48-480c-aab7-9d0037baa772" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98883", 
+            "y" : "-99797"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_26"
+      }, 
+      "6296f924-4ebd-41e3-806e-f26531672dec" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98673", 
+            "y" : "-99790"
+         }, 
+         "child" : [ 
+            "500ae320-efa5-43a5-be5f-541688d4789b", 
+            "b85915fc-98f8-41ae-a5de-0b6afe30f074"
+         ], 
+         "note_key" : "BAZA.RESTROOM.READY"
+      }, 
+      "500ae320-efa5-43a5-be5f-541688d4789b" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98752", 
+            "y" : "-99695"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_24"
+      }, 
+      "b85915fc-98f8-41ae-a5de-0b6afe30f074" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98585", 
+            "y" : "-99676"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_25"
+      }, 
+      "15b023c7-371b-4ff6-8e52-90347445ce94" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98809", 
+            "y" : "-100015"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "797cfcdd-4d46-4a8d-9d83-58b68da1e587" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-98632", 
+            "y" : "-100162", 
+            "comment" : "Scene 7"
+         }, 
+         "child" : [ 
+            "f5072ad6-1718-498b-8be4-6562e9d67c32"
+         ]
+      }, 
+      "f5072ad6-1718-498b-8be4-6562e9d67c32" : { 
+         "class" : "HasPlayerPerkNode", 
+         "desc" : { 
+            "x" : "-98465", 
+            "y" : "-100102", 
+            "comment" : "если ОПГ Смерть"
+         }, 
+         "child" : [ 
+            "724c03e5-b463-45f2-999a-9935e2a78485", 
+            "162dde21-11c2-42a3-8d71-464c8d2df4a8"
+         ], 
+         "perk" : "Chaos"
+      }, 
+      "724c03e5-b463-45f2-999a-9935e2a78485" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98570", 
+            "y" : "-99996"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_32"
+      }, 
+      "162dde21-11c2-42a3-8d71-464c8d2df4a8" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98322", 
+            "y" : "-99949"
+         }, 
+         "child" : [ 
+            "e1a24cdc-7839-44c4-9a7f-8449933a538f", 
+            "2f9f51a9-b37a-4a47-843e-877424315c87"
+         ], 
+         "note_key" : "HARBOR_NEWSTATE"
+      }, 
+      "e1a24cdc-7839-44c4-9a7f-8449933a538f" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98331", 
+            "y" : "-99800"
+         }, 
+         "child" : [ 
+            "ced4accd-a19a-42b1-8ef1-c07822126ec3", 
+            "6a6cf637-0cea-4cdf-99d7-5a3c32d07123"
+         ], 
+         "note_key" : "HARBOR_NEWSTATE_SIDE"
+      }, 
+      "ced4accd-a19a-42b1-8ef1-c07822126ec3" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98367", 
+            "y" : "-99700"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_29"
+      }, 
+      "6a6cf637-0cea-4cdf-99d7-5a3c32d07123" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98214", 
+            "y" : "-99695"
+         }, 
+         "child" : [ 
+            "d02fc58c-4202-4aba-aa57-e43443fca1ed", 
+            "3d575893-f41b-40bd-80d3-22fda3f84e77"
+         ], 
+         "note_key" : "HARBOR_NEWSTATE_GUARD"
+      }, 
+      "d02fc58c-4202-4aba-aa57-e43443fca1ed" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98314", 
+            "y" : "-99581"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_30"
+      }, 
+      "3d575893-f41b-40bd-80d3-22fda3f84e77" : { 
+         "class" : "NotebookHasNoteNode", 
+         "desc" : { 
+            "x" : "-98128", 
+            "y" : "-99583"
+         }, 
+         "child" : [ 
+            "ae3802d0-b727-4f52-a0a9-1e822febbd5f", 
+            "3539254c-35dd-4272-9cb3-f308b33e7bed"
+         ], 
+         "note_key" : "HARBOR_NEWSTATE_TRADE"
+      }, 
+      "ae3802d0-b727-4f52-a0a9-1e822febbd5f" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98207", 
+            "y" : "-99483"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_31"
+      }, 
+      "3539254c-35dd-4272-9cb3-f308b33e7bed" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-97973", 
+            "y" : "-99473"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_32"
+      }, 
+      "2f9f51a9-b37a-4a47-843e-877424315c87" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98130", 
+            "y" : "-99852"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_28"
+      }, 
+      "170b6d13-012f-4ec8-849e-fc88515dbc5a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97952", 
+            "y" : "-100201", 
+            "comment" : "Scene 8-11"
+         }, 
+         "child" : [ 
+            "3f4941f6-0104-4061-86ce-afd5b79a2899", 
+            "e83b8ba8-77bb-43f5-bd0b-3360c2b5804a", 
+            "cfc9664e-9e09-4969-943c-a7a278102e56", 
+            "c99e03f9-af31-420c-afcc-eb0db60cbbbd"
+         ]
+      }, 
+      "3f4941f6-0104-4061-86ce-afd5b79a2899" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-98012", 
+            "y" : "-100123"
+         }, 
+         "child" : [ 
+            "77f8e9e8-4ad7-4bd9-abb9-cfb16927e809", 
+            "7635552f-6fae-4343-805b-217f2f22433a"
+         ], 
+         "teammate" : "Fidel"
+      }, 
+      "77f8e9e8-4ad7-4bd9-abb9-cfb16927e809" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-98079", 
+            "y" : "-100011"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_33"
+      }, 
+      "7635552f-6fae-4343-805b-217f2f22433a" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97942", 
+            "y" : "-100031"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "e83b8ba8-77bb-43f5-bd0b-3360c2b5804a" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-97808", 
+            "y" : "-100123"
+         }, 
+         "child" : [ 
+            "7c42b8fa-ad57-4a84-b1c7-c5a4240d52da", 
+            "8f667d67-54c3-4fbc-afc4-551e97b35ed2"
+         ], 
+         "teammate" : "Gexogen"
+      }, 
+      "7c42b8fa-ad57-4a84-b1c7-c5a4240d52da" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-97878", 
+            "y" : "-100009"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_34"
+      }, 
+      "8f667d67-54c3-4fbc-afc4-551e97b35ed2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97734", 
+            "y" : "-100022"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "cfc9664e-9e09-4969-943c-a7a278102e56" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-97614", 
+            "y" : "-100122"
+         }, 
+         "child" : [ 
+            "ce71df27-76a3-41ab-a083-a46354d53a12", 
+            "56f16178-ede0-406d-a908-80ffef41d2b5"
+         ], 
+         "teammate" : "Alexander"
+      }, 
+      "ce71df27-76a3-41ab-a083-a46354d53a12" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-97659", 
+            "y" : "-99997"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_35"
+      }, 
+      "56f16178-ede0-406d-a908-80ffef41d2b5" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97538", 
+            "y" : "-100030"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "c99e03f9-af31-420c-afcc-eb0db60cbbbd" : { 
+         "class" : "HasTeamMateNode", 
+         "desc" : { 
+            "x" : "-97425", 
+            "y" : "-100121"
+         }, 
+         "child" : [ 
+            "27e46892-a539-4c7e-abc0-eb3d0f18938b", 
+            "b918907b-3fd4-4c0c-8965-7f4776e5eebd"
+         ], 
+         "teammate" : "galina"
+      }, 
+      "27e46892-a539-4c7e-abc0-eb3d0f18938b" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-97440", 
+            "y" : "-99987"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_36"
+      }, 
+      "b918907b-3fd4-4c0c-8965-7f4776e5eebd" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-97321", 
+            "y" : "-100008"
+         }, 
+         "child" : [ 
+         ]
+      }, 
+      "a559adfb-92a2-4f48-a3b0-69b523301037" : { 
+         "class" : "ShowVideoScenarioNode", 
+         "desc" : { 
+            "x" : "-100269", 
+            "y" : "-100221"
+         }, 
+         "child" : [ 
+         ], 
+         "scenario" : "TheEnd"
+      }, 
+      "34b818b1-6b46-4206-b52f-983cb274f5e2" : { 
+         "class" : "DummyNode", 
+         "desc" : { 
+            "x" : "-99857", 
+            "y" : "-101008", 
+            "comment" : "test"
+         }, 
+         "child" : [ 
+            "f3df3e6a-4f54-4409-a8a6-38d6d27ee28d", 
+            "7b570797-ade4-4a5b-8e6e-ff75400616ed", 
+            "e6acf0ce-6ab8-428d-a444-fe14b3b9c93f", 
+            "ca1e44e1-603f-447a-a3c1-9bc6f318c991"
+         ]
+      }, 
+      "f3df3e6a-4f54-4409-a8a6-38d6d27ee28d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100026", 
+            "y" : "-100943"
+         }, 
+         "child" : [ 
+            "0f6a9db0-aa99-4793-8b3f-fdfe61e7591c"
+         ], 
+         "note_key" : "THE_END_VIDEO_1"
+      }, 
+      "0f6a9db0-aa99-4793-8b3f-fdfe61e7591c" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100035", 
+            "y" : "-100868"
+         }, 
+         "child" : [ 
+            "25b2b052-5266-44c2-982d-bf56b6c24f6a"
+         ], 
+         "note_key" : "THE_END_VIDEO_2"
+      }, 
+      "25b2b052-5266-44c2-982d-bf56b6c24f6a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100036", 
+            "y" : "-100776"
+         }, 
+         "child" : [ 
+            "1bef3cb2-1597-4b3e-946f-7ab5066c2624"
+         ], 
+         "note_key" : "THE_END_VIDEO_3"
+      }, 
+      "1bef3cb2-1597-4b3e-946f-7ab5066c2624" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100047", 
+            "y" : "-100704"
+         }, 
+         "child" : [ 
+            "630db80f-910f-4f28-95d8-07f80a147377"
+         ], 
+         "note_key" : "THE_END_VIDEO_4"
+      }, 
+      "630db80f-910f-4f28-95d8-07f80a147377" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100056", 
+            "y" : "-100629"
+         }, 
+         "child" : [ 
+            "ef7dfd4f-b26b-4bf0-982e-194d0a73786d"
+         ], 
+         "note_key" : "THE_END_VIDEO_5"
+      }, 
+      "ef7dfd4f-b26b-4bf0-982e-194d0a73786d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100057", 
+            "y" : "-100537"
+         }, 
+         "child" : [ 
+            "d88562f2-ab5d-446e-a4a9-b99df3582757"
+         ], 
+         "note_key" : "THE_END_VIDEO_6"
+      }, 
+      "d88562f2-ab5d-446e-a4a9-b99df3582757" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100047", 
+            "y" : "-100463"
+         }, 
+         "child" : [ 
+            "48724279-8069-46cb-8976-2187fbf7feb6"
+         ], 
+         "note_key" : "THE_END_VIDEO_7"
+      }, 
+      "48724279-8069-46cb-8976-2187fbf7feb6" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100061", 
+            "y" : "-100381"
+         }, 
+         "child" : [ 
+            "7e66eeb8-b76b-48d2-b6bb-7c9278713f98"
+         ], 
+         "note_key" : "THE_END_VIDEO_8"
+      }, 
+      "7e66eeb8-b76b-48d2-b6bb-7c9278713f98" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100068", 
+            "y" : "-100332"
+         }, 
+         "child" : [ 
+            "4e3ddf69-c35e-47f4-a3b0-7fee5104b00a"
+         ], 
+         "note_key" : "THE_END_VIDEO_9"
+      }, 
+      "4e3ddf69-c35e-47f4-a3b0-7fee5104b00a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-100061", 
+            "y" : "-100273"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_10"
+      }, 
+      "7b570797-ade4-4a5b-8e6e-ff75400616ed" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99878", 
+            "y" : "-100947"
+         }, 
+         "child" : [ 
+            "791139b8-ab34-4535-88dd-d7588ce0ffb2"
+         ], 
+         "note_key" : "THE_END_VIDEO_11"
+      }, 
+      "791139b8-ab34-4535-88dd-d7588ce0ffb2" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99887", 
+            "y" : "-100872"
+         }, 
+         "child" : [ 
+            "717e6bb9-e706-41e0-b3f2-5999d9774809"
+         ], 
+         "note_key" : "THE_END_VIDEO_12"
+      }, 
+      "717e6bb9-e706-41e0-b3f2-5999d9774809" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99888", 
+            "y" : "-100780"
+         }, 
+         "child" : [ 
+            "1b651338-8013-4332-add5-85503d271071"
+         ], 
+         "note_key" : "THE_END_VIDEO_13"
+      }, 
+      "1b651338-8013-4332-add5-85503d271071" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99899", 
+            "y" : "-100708"
+         }, 
+         "child" : [ 
+            "51822967-06f7-4d02-90b3-14dbcf4c4b9e"
+         ], 
+         "note_key" : "THE_END_VIDEO_14"
+      }, 
+      "51822967-06f7-4d02-90b3-14dbcf4c4b9e" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99908", 
+            "y" : "-100633"
+         }, 
+         "child" : [ 
+            "94a4994b-4ffa-4f1b-8a74-4ff7e41f1a04"
+         ], 
+         "note_key" : "THE_END_VIDEO_15"
+      }, 
+      "94a4994b-4ffa-4f1b-8a74-4ff7e41f1a04" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99909", 
+            "y" : "-100541"
+         }, 
+         "child" : [ 
+            "4b5e1904-01fe-4754-8e91-36bc92c0cb16"
+         ], 
+         "note_key" : "THE_END_VIDEO_16"
+      }, 
+      "4b5e1904-01fe-4754-8e91-36bc92c0cb16" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99904", 
+            "y" : "-100460"
+         }, 
+         "child" : [ 
+            "7914eb8f-d35e-4106-a43d-5eafcdd904e6"
+         ], 
+         "note_key" : "THE_END_VIDEO_17"
+      }, 
+      "7914eb8f-d35e-4106-a43d-5eafcdd904e6" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99913", 
+            "y" : "-100385"
+         }, 
+         "child" : [ 
+            "982ed4a8-0b1d-4154-ac12-129f63cb5740"
+         ], 
+         "note_key" : "THE_END_VIDEO_18"
+      }, 
+      "982ed4a8-0b1d-4154-ac12-129f63cb5740" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99920", 
+            "y" : "-100336"
+         }, 
+         "child" : [ 
+            "b7dbb19e-1c25-4927-afa2-76fda02fc70a"
+         ], 
+         "note_key" : "THE_END_VIDEO_19"
+      }, 
+      "b7dbb19e-1c25-4927-afa2-76fda02fc70a" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99913", 
+            "y" : "-100277"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_20"
+      }, 
+      "e6acf0ce-6ab8-428d-a444-fe14b3b9c93f" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99731", 
+            "y" : "-100948"
+         }, 
+         "child" : [ 
+            "676ae0c2-367b-4782-b9a5-b097558a2228"
+         ], 
+         "note_key" : "THE_END_VIDEO_21"
+      }, 
+      "676ae0c2-367b-4782-b9a5-b097558a2228" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99740", 
+            "y" : "-100873"
+         }, 
+         "child" : [ 
+            "806d0777-abae-47b2-a6fa-c06205d282d2"
+         ], 
+         "note_key" : "THE_END_VIDEO_22"
+      }, 
+      "806d0777-abae-47b2-a6fa-c06205d282d2" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99741", 
+            "y" : "-100781"
+         }, 
+         "child" : [ 
+            "7fa17834-a882-4484-942a-d427ef0910c5"
+         ], 
+         "note_key" : "THE_END_VIDEO_23"
+      }, 
+      "7fa17834-a882-4484-942a-d427ef0910c5" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99752", 
+            "y" : "-100709"
+         }, 
+         "child" : [ 
+            "fbfcd85f-15e3-4496-9786-85387e7d2cbc"
+         ], 
+         "note_key" : "THE_END_VIDEO_24"
+      }, 
+      "fbfcd85f-15e3-4496-9786-85387e7d2cbc" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99761", 
+            "y" : "-100634"
+         }, 
+         "child" : [ 
+            "4faed4e2-cb4a-4ca0-8b31-c1e5c24a5314"
+         ], 
+         "note_key" : "THE_END_VIDEO_25"
+      }, 
+      "4faed4e2-cb4a-4ca0-8b31-c1e5c24a5314" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99762", 
+            "y" : "-100542"
+         }, 
+         "child" : [ 
+            "54db30e1-05ee-4695-b64b-633ac97aa684"
+         ], 
+         "note_key" : "THE_END_VIDEO_26"
+      }, 
+      "54db30e1-05ee-4695-b64b-633ac97aa684" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99757", 
+            "y" : "-100461"
+         }, 
+         "child" : [ 
+            "4eb74aa1-2442-41b6-bc46-2724fb7c75e2"
+         ], 
+         "note_key" : "THE_END_VIDEO_27"
+      }, 
+      "4eb74aa1-2442-41b6-bc46-2724fb7c75e2" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99766", 
+            "y" : "-100386"
+         }, 
+         "child" : [ 
+            "23334ee9-e994-4753-8879-77e8d1765ce3"
+         ], 
+         "note_key" : "THE_END_VIDEO_28"
+      }, 
+      "23334ee9-e994-4753-8879-77e8d1765ce3" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99773", 
+            "y" : "-100337"
+         }, 
+         "child" : [ 
+            "d983727e-2901-4840-bb52-5f646ce05ab7"
+         ], 
+         "note_key" : "THE_END_VIDEO_29"
+      }, 
+      "d983727e-2901-4840-bb52-5f646ce05ab7" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99766", 
+            "y" : "-100278"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_30"
+      }, 
+      "ca1e44e1-603f-447a-a3c1-9bc6f318c991" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99590", 
+            "y" : "-100947"
+         }, 
+         "child" : [ 
+            "c49eac51-57f0-4f82-b864-933df9688072"
+         ], 
+         "note_key" : "THE_END_VIDEO_31"
+      }, 
+      "c49eac51-57f0-4f82-b864-933df9688072" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99599", 
+            "y" : "-100872"
+         }, 
+         "child" : [ 
+            "e26e50d2-a07d-43f0-9184-5d16d023fcff"
+         ], 
+         "note_key" : "THE_END_VIDEO_32"
+      }, 
+      "e26e50d2-a07d-43f0-9184-5d16d023fcff" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99600", 
+            "y" : "-100780"
+         }, 
+         "child" : [ 
+            "d4a5bb73-fe61-4eb0-a5d1-b5874a77be37"
+         ], 
+         "note_key" : "THE_END_VIDEO_33"
+      }, 
+      "d4a5bb73-fe61-4eb0-a5d1-b5874a77be37" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99611", 
+            "y" : "-100705"
+         }, 
+         "child" : [ 
+            "412b2984-2d5a-4a74-add2-f4d2bf875c1d"
+         ], 
+         "note_key" : "THE_END_VIDEO_34"
+      }, 
+      "412b2984-2d5a-4a74-add2-f4d2bf875c1d" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99620", 
+            "y" : "-100633"
+         }, 
+         "child" : [ 
+            "cb6f68cd-3da1-4240-8e51-6846d45cb3ac"
+         ], 
+         "note_key" : "THE_END_VIDEO_35"
+      }, 
+      "cb6f68cd-3da1-4240-8e51-6846d45cb3ac" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99621", 
+            "y" : "-100541"
+         }, 
+         "child" : [ 
+            "278338c0-89ad-4dba-ba2a-f84b0164de77"
+         ], 
+         "note_key" : "THE_END_VIDEO_36"
+      }, 
+      "278338c0-89ad-4dba-ba2a-f84b0164de77" : { 
+         "class" : "NotebookAddNoteNode", 
+         "desc" : { 
+            "x" : "-99616", 
+            "y" : "-100464"
+         }, 
+         "child" : [ 
+         ], 
+         "note_key" : "THE_END_VIDEO_37"
+      }
+   }, 
+   "entry" : "68fb346e-abf7-4566-bfbf-d87d362615a3"
+}

@@ -17,26 +17,6 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
         string dir = System.IO.Path.GetDirectoryName(assembly.Location);
         Debug.Log("Mod Init: " + modName + "(" + dir + ")");
         ResourceManager.AddBundle(modName, AssetBundle.LoadFromFile(dir + "/" + modName + "_resources"));
-        GlobalEvents.AddListener<GlobalEvents.GameStart>(GameLoaded);
-        GlobalEvents.AddListener<GlobalEvents.LevelLoaded>(LevelLoaded);
     }
 
-    void GameLoaded(GlobalEvents.GameStart evnt)
-    {
-        Localization.LoadStrings("mymod_strings_");
-        Game.World.console.DeveloperMode();
-    }
-
-    void LevelLoaded(GlobalEvents.LevelLoaded evnt)
-    {
-        Debug.Log(evnt.levelName);
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.F2))
-        {
-            Game.World.NextLevel("MyMod", "EnterPoint", true, false);
-        }
-    }
 }
